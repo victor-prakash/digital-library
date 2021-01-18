@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.main  {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: max-content;
+}
+.logo{
+  background-color: green;
+  height: 80px;
+  width: auto;
+}
+.top{
+  background-image: url('https://www.loyolacollege.edu/library/images/title.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+}
+.top__contents {
+  display: flex;
+  margin-left: 40px;
+  flex-direction: column;
+}
+.top > .top__contents > h2,.top > .top__contents > p{
+  color: #fdc800;
+  text-shadow: 5px 4px 5px #002147;
+  font-weight: 700;
+}
+.top > .top__contents >p{
+  color: #ffffff;
+  font-size: 48px;
+    text-shadow: 5px 4px 5px #002147
+}
+.bottom{
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  height: 600px;
+  width: auto;
+
+}
+.bottom-left{
+  background-color: pink;
+  height: 600px;
+  width: 350px;
+  float: left;
+}
+.bottom-right{
+  height: 600px;
+  width: 827px;
+  float: right;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  background-color: #002147;
+}
+.footer > .footer__contents {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer > .footer__contents > h3 {
+  color: #fdc800;
+  font-weight: 800;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer > .footer__contents > p{
+  margin-top: 5px;
+  color: #eeeeee;
+  font-family: sans-serif;
+}
