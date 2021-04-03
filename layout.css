@@ -79,7 +79,7 @@
   font-size: 18px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.footer > .footer__contents > p{
+.footer > .footer__contents > a{
   margin-top: 5px;
   color: #eeeeee;
   font-family: sans-serif;
